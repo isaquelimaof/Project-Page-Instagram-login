@@ -83,7 +83,7 @@ body {
 .button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bolder;
     border: none;
     border-radius: 3px;
     color: white;
@@ -184,24 +184,24 @@ body {
 
 .logo-app {
     display: flex;
-    align-items: center;
-    align-self: flex-end;
-    width: 450px;
-    height: 100px;
+    width: auto;
+    height: 70px;
+    justify-content: center;
+    border: none;
 }
 
-.app-store img{
+.app-store {
     display: flex;
-    object-fit: cover;
-    width: 140px;
-    height: 140px;
-    margin-right: 3px;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    border: none;
 }
 
-.app-play img{
+.app-play {
     display: flex;
-    object-fit: cover;
-    width: 130px;
-    height: 120px;
-    margin-left: 3px;
+    flex-direction: column;
+    width: 156px;
+    justify-content: center;
+    border: none;
 }

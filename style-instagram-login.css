@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 83vh;
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-login {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(218, 216, 216);
+    width: 365px;
+    height: 400px;
+    margin-top: 45px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.instagram-login img {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.input-login {
+    display: flex;
+    margin-top: 35px;
+}
+
+#login {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    background-color: rgb(250, 250, 250);
+    height: 37px;
+    width: 275px;
+    padding-left: 8px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 2px;
+    outline-offset: 1px;
+    outline-color: rgba(0, 0, 0, 0.171);
+}
+
+.input-senha {
+    display: flex;
+    margin-top: 5px;
+}
+
+#senha {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    background-color: rgb(250, 250, 250);
+    height: 37px;
+    width: 275px;
+    padding-left: 8px;
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 2px;
+    outline-offset: 1px;
+    outline-color: rgba(0, 0, 0, 0.171);
+}
+
+.button-entrar {
+    display: flex;
+    margin-top: 15px;
+}
+
+.button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(168, 214, 223);
+    height: 30px;
+    width: 275px;
+}
+
+#text-line-lateral p {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+    display: flex;
+    margin-top: 20px;
+}
+
+#text-line-lateral p::before {
+    content: "";
+    height: 1px;
+    width: 115px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 15px;
+    background-color: rgb(196, 196, 196);
+    position: relative;
+}
+
+#text-line-lateral p::after {
+    content: "";
+    height: 1px;
+    width: 115px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 50px;
+    background-color: rgb(196, 196, 196);
+    position: relative;
+}
+
+.logo-entrar-facebook {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo-facebook {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 20px;
+    height: 20px;
+}
+
+.text-facebook {
+    display: flex;
+    margin-left: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 116, 0.678);
+}
+
+.text-esqueceu-senha a {
+    display: flex;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 116, 0.74);
+}
+
+.cadastro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(218, 216, 216);
+    width: 365px;
+    height: 65px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.cadastro p {
+    margin-top: 25px;
+}
+
+.text-cadastro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(56, 168, 233);
+}
+
+.text-app {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo-app {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    width: 450px;
+    height: 100px;
+}
+
+.app-store img{
+    display: flex;
+    object-fit: cover;
+    width: 140px;
+    height: 140px;
+    margin-right: 3px;
+}
+
+.app-play img{
+    display: flex;
+    object-fit: cover;
+    width: 130px;
+    height: 120px;
+    margin-left: 3px;
+}
